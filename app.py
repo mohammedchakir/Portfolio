@@ -26,6 +26,7 @@ def home():
 def about():
     return render_template("about.html", title="About")
 
+
 # Route to handle form submission
 @app.route('/submit', methods=['POST'])
 def submit():
